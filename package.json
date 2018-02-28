@@ -1,0 +1,43 @@
+{
+  "name": "react16-uglifyjs",
+  "version": "1.0.0",
+  "description": "Reproduce DCE issue with webpack uglifyjs and React16",
+  "main": "index.js",
+  "scripts": {
+    "dev-build": "cross-env NODE_ENV=development webpack",
+    "build": "cross-env NODE_ENV=production webpack",
+    "open": "node open-browser.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bspies-work/react16-uglifyjs.git"
+  },
+  "keywords": [
+    "react",
+    "webpack",
+    "uglifyjs"
+  ],
+  "author": "Brennan Spies",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bspies-work/react16-uglifyjs/issues"
+  },
+  "homepage": "https://github.com/bspies-work/react16-uglifyjs#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.3",
+    "babel-plugin-transform-decorators-legacy": "^1.3.4",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "cross-env": "^5.1.3",
+    "html-webpack-plugin": "^2.30.1",
+    "opn": "^5.2.0",
+    "uglifyjs-webpack-plugin": "^1.2.2",
+    "webpack": "^3.10.0"
+  },
+  "dependencies": {
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0"
+  }
+}
